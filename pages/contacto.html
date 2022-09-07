@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>EZracing</title>
+    <link rel="shortcut icon" href="../assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header__content">
+            <a href="../index.html"><img src="../assets/images/Logo.png" alt="logo" class="header__content-logo" /></a>
+            <nav>
+                <ul class="header__content-navbar">
+                    <li>
+                        <a href="../index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="./nosotros.html">NOSOTROS</a>
+                    </li>
+                    <li>
+                        <a href="./servicios.html">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="./promociones.html">PROMOCIONES</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+                <span>🍔</span>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="contacto">
+            <h1 class="title__contacto">Envianos tu mensaje</h1>
+            <img src="../assets/images/Contacto.jpg" alt="contacto" />
+        </section>
+        <section class="formulario">
+            <form action="send.php" method="get" enctype="multipart/form-data">
+
+                <label for="nombre">Escriba su nombre</label>
+                <input type="text" placeholder="NOMBRE Y APELLIDO" id="nombre" />
+
+                <label for="email">Escriba su email</label>
+                <input type="text" placeholder="EMAIL" id="email" />
+
+                <fieldset>
+                    <legend>LOCALIDAD:</legend>
+                    <select>
+                    <option>BERISSO</option>
+                    <option>CITY BELL</option>
+                    <option>ENSENADA</option>
+                    <option>GONNET</option>
+                    <option>LA PLATA</option>
+                    </select>
+                </fieldset>
+                <div>
+                    <input type="radio" name="servivios" id="mantenimiento" />
+                    <label for="mantenimiento">MANTENIMIENTO</label>
+            
+                    <input type="radio" name="servivios" id="reparaciones" />
+                    <label for="reparaciones">REPARACIONES</label>
+            
+                    <input type="radio" name="servivios" id="diagnostico" />
+                    <label for="diagnostico">DIAGNOSTICO</label>
+                </div>    
+
+                <textarea cols="30" rows="10" placeholder="Escriba su mensaje aqui"></textarea>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar todo</button>
+            </form>
+        </section>    
+    </main>
+
+    <footer>
+        <h5>Encontranos en:</h5>
+        <a href="https://www.facebook.com/ezracing1">
+            <img src="../assets/images/Facebook_f_logo_(2019).svg.png" alt="Facebook" width="20" />
+        </a>
+        <a href="https://www.instagram.com/ezracing_/">
+            <img src="../assets/images/instagram logo.jfif" alt="Instagram" width="25" />
+        </a>
+    </footer>
+
+    <div class="whatsapp">
+        <a href="">
+          <img src="../assets/images/whatsapp.svg" alt="Whatsapp" width="65" height="65" />
+        </a>
+    </div>
+
+</body>
+</html>
