@@ -1,0 +1,15 @@
+.contacto img{
+  width: 100%;
+}
+
+.title__contacto{
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.formulario form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}

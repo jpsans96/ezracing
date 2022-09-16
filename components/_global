@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  display: grid;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  background-image: url(/assets/images/fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  grid-template-areas: 
+  "encabezado encabezado encabezado"
+  "contenido  contenido  contenido"
+  "footer     footer     footer";
+}
+
+ul{
+  list-style-type: none;
+}
+
+span{
+  display: none;
+}
+
+footer{
+  background-color: white;
+  width: 100%;
+  bottom: 0;
+  grid-area: footer;
+}
+
+footer h5{
+  font-weight: bold;
+}
+
+footer img{
+  width: 30px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 6%;
+    right: 3%;
+  }

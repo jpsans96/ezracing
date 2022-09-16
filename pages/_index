@@ -1,0 +1,26 @@
+.contenido{
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  grid-area: contenido;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contenido__inicio-title{
+  font-weight: bold;
+  margin: 30px 40px;
+}
+
+.contenido__inicio{
+display: grid;
+align-content: center;
+width: 50%;
+}
+
+.contenido img{
+  height: 400px;
+}
+
+.contenido__inicio-parrafo{
+  margin: 0 20px;
+}

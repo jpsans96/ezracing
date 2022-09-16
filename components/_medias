@@ -1,0 +1,26 @@
+@media  (max-width: 480px){
+  .header__content-navbar{
+    display: none;
+  }
+  span{
+    display: inline-block;
+  }
+  .contenido__inicio{
+    display: grid;
+    grid-template-rows: 1fr;
+    width: 100%;
+    align-items: center;
+  }
+  .contenido__inicio img{
+    width: 100%;
+  }
+  .contenido{
+    grid-template-columns: 1fr;
+  }
+  .my-cards{
+    grid-template-columns: 1fr;
+  }
+  .contenido__servicios{
+    grid-template-columns: 1fr;
+  }
+}
