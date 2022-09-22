@@ -1,0 +1,25 @@
+.header{
+  background-color: black;
+  top: 0;
+  padding: 0;
+  grid-area: encabezado;
+  &__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-navbar{
+      display: flex;
+      & a{
+        margin: 0 10px;
+        color: aliceblue;
+        font-weight: bold;
+      }
+    }
+    &-logo{
+      display: flex;
+      width: 100px;
+    }
+    
+    
+  }
+}

@@ -1,0 +1,23 @@
+.contenido{
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  grid-area: contenido;
+  grid-template-columns: repeat(2, 1fr);
+
+    &__inicio{
+      display: grid;
+      align-content: center;
+      width: 50%;
+      &-title{
+        font-weight: bold;
+        margin: 30px 40px;
+      }
+      &parrafo{
+        margin: 0 20px;
+      }
+      }
+  &img{
+    height: 400px;
+  }
+}

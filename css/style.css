@@ -1,26 +1,3 @@
-.header {
-  background-color: black;
-  top: 0;
-  padding: 0;
-  grid-area: encabezado; }
-
-.header__content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-
-.header__content-navbar {
-  display: flex; }
-
-.header__content-navbar a {
-  margin: 0 10px;
-  color: aliceblue;
-  font-weight: bold; }
-
-.header__content-logo {
-  display: flex;
-  width: 100px; }
-
 * {
   margin: 0;
   padding: 0;
@@ -48,35 +25,52 @@ footer {
   width: 100%;
   bottom: 0;
   grid-area: footer; }
-
-footer h5 {
-  font-weight: bold; }
-
-footer img {
-  width: 30px; }
+  footer h5 {
+    font-weight: bold; }
+  footer img {
+    width: 30px; }
 
 .whatsapp {
   position: fixed;
   bottom: 6%;
   right: 3%; }
 
+.header {
+  background-color: black;
+  top: 0;
+  padding: 0;
+  grid-area: encabezado; }
+  .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .header__content-navbar {
+      display: flex; }
+      .header__content-navbar a {
+        margin: 0 10px;
+        color: aliceblue;
+        font-weight: bold; }
+    .header__content-logo {
+      display: flex;
+      width: 100px; }
+
 @media (max-width: 480px) {
   .header__content-navbar {
     display: none; }
   span {
     display: inline-block; }
-  .contenido__inicio {
-    display: grid;
-    grid-template-rows: 1fr;
-    width: 100%;
-    align-items: center; }
-  .contenido__inicio img {
-    width: 100%; }
   .contenido {
     grid-template-columns: 1fr; }
+    .contenido__servicios {
+      grid-template-columns: 1fr; }
+    .contenido__inicio {
+      display: grid;
+      grid-template-rows: 1fr;
+      width: 100%;
+      align-items: center; }
+      .contenido__inicio img {
+        width: 100%; }
   .my-cards {
-    grid-template-columns: 1fr; }
-  .contenido__servicios {
     grid-template-columns: 1fr; } }
 
 .contenido {
@@ -85,29 +79,29 @@ footer img {
   justify-content: space-around;
   grid-area: contenido;
   grid-template-columns: repeat(2, 1fr); }
-
-.contenido__inicio-title {
-  font-weight: bold;
-  margin: 30px 40px; }
-
-.contenido__inicio {
-  display: grid;
-  align-content: center;
-  width: 50%; }
-
-.contenido img {
-  height: 400px; }
-
-.contenido__inicio-parrafo {
-  margin: 0 20px; }
+  .contenido__inicio {
+    display: grid;
+    align-content: center;
+    width: 50%; }
+    .contenido__inicio-title {
+      font-weight: bold;
+      margin: 30px 40px; }
+    .contenido__inicioparrafo {
+      margin: 0 20px; }
+  .contenidoimg {
+    height: 400px; }
 
 .contenido__servicios {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
 
 .title__servicios {
+  display: grid;
   font-weight: bold;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  width: 100%;
+  grid-area: encabezado;
+  justify-content: center; }
 
 .card {
   background-color: aqua;
@@ -116,36 +110,32 @@ footer img {
   border-radius: 10px;
   box-shadow: 0 30px 50px -12px black;
   margin: 15px 20px; }
-
-.card__title {
-  font-size: 25px;
-  margin-bottom: 20px; }
-
-.card__header-img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 25px; }
+  .card__title {
+    font-size: 25px;
+    margin-bottom: 20px; }
+  .card__header-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px; }
 
 .my-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-columns: repeat(2, 1fr);
+  grid-area: conenido;
+  margin-top: 20px; }
 
 .info {
   display: flex;
   background-color: #eee; }
-
-.info__title {
-  font-weight: bold;
-  font-size: 30px; }
-
-.info__parrafo {
-  font-size: 20px; }
-
-.info iframe {
-  width: 50%; }
-
-.info div {
-  width: 50%; }
+  .info__title {
+    font-weight: bold;
+    font-size: 30px; }
+  .info__parrafo {
+    font-size: 20px; }
+  .info iframe {
+    width: 50%; }
+  .info div {
+    width: 50%; }
 
 .contacto img {
   width: 100%; }

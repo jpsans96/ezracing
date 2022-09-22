@@ -4,8 +4,12 @@
 }
 
 .title__servicios{
+  display: grid;
   font-weight: bold;
   margin-bottom: 25px;
+  width: 100%;
+  grid-area: encabezado;
+  justify-content: center;
 }
 
 .card{
@@ -15,20 +19,20 @@
   border-radius: 10px;
   box-shadow: 0 30px 50px -12px rgba(0, 0, 0, 65%);
   margin: 15px 20px;
-}
-
-.card__title{
-  font-size: 25px;
-  margin-bottom: 20px;
-}
-
-.card__header-img{
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 25px;
+  &__title{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  &__header-img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
 }
 
 .my-cards{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-area: conenido;
+  margin-top: 20px;
 }
