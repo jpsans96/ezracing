@@ -35,6 +35,10 @@ footer {
   bottom: 6%;
   right: 3%; }
 
+.container, .header__content, .contenido {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 .header {
   background-color: black;
   top: 0;

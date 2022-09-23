@@ -1,6 +1,5 @@
 .contenido__servicios{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  @include templategrid(2);
 }
 
 .title__servicios{
@@ -31,8 +30,7 @@
 }
 
 .my-cards{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  @include templategrid(2);
   grid-area: conenido;
   margin-top: 20px;
 }
