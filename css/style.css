@@ -92,8 +92,6 @@ footer {
       margin: 30px 40px; }
     .contenido__inicioparrafo {
       margin: 0 20px; }
-  .contenidoimg {
-    height: 400px; }
 
 .contenido__servicios {
   display: grid;
@@ -149,7 +147,10 @@ footer {
   font-size: 35px;
   margin-bottom: 20px; }
 
-.formulario form {
-  display: flex;
-  flex-direction: column;
-  width: 40%; }
+.formulario {
+  display: grid;
+  justify-content: center; }
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
