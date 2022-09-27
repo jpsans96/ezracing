@@ -33,8 +33,9 @@ footer{
   width: 100%;
   bottom: 0;
   grid-area: footer;
-  & h5{
+  & h2{
     font-weight: bold;
+    font-size: 15px;
   }
   & img{
     width: 30px;

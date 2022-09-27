@@ -3,9 +3,11 @@
 }
 
 .title__contacto{
+  display: grid;
   font-weight: bold;
   font-size: 35px;
   margin-bottom: 20px;
+  justify-content: center;
 }
 
 .formulario{

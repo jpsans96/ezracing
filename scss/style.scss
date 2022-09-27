@@ -3,7 +3,8 @@
 @import "./components/medias";
 
 
-@import "./pages/index";
-@import "./pages/servicios";
-@import "./pages/nosotros";
-@import "./pages/contacto";
+@import "./pages_sass/index";
+@import "./pages_sass/servicios";
+@import "./pages_sass/nosotros";
+@import "./pages_sass/contacto";
+@import "./pages_sass/promociones.scss"

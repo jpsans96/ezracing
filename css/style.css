@@ -25,8 +25,9 @@ footer {
   width: 100%;
   bottom: 0;
   grid-area: footer; }
-  footer h5 {
-    font-weight: bold; }
+  footer h2 {
+    font-weight: bold;
+    font-size: 15px; }
   footer img {
     width: 30px; }
 
@@ -85,13 +86,15 @@ footer {
   grid-template-columns: repeat(2, 1fr); }
   .contenido__inicio {
     display: grid;
-    align-content: center;
-    width: 50%; }
+    justify-content: center; }
     .contenido__inicio-title {
+      display: grid;
       font-weight: bold;
-      margin: 30px 40px; }
-    .contenido__inicioparrafo {
-      margin: 0 20px; }
+      margin: 30px 40px;
+      justify-content: center; }
+    .contenido__inicio-parrafo {
+      margin: 0 20px;
+      font-size: 20px; }
 
 .contenido__servicios {
   display: grid;
@@ -130,9 +133,9 @@ footer {
   display: flex;
   background-color: #eee; }
   .info__title {
-    font-weight: bold;
-    font-size: 30px; }
+    font-weight: bold; }
   .info__parrafo {
+    margin: 0 20px;
     font-size: 20px; }
   .info iframe {
     width: 50%; }
@@ -143,9 +146,11 @@ footer {
   width: 100%; }
 
 .title__contacto {
+  display: grid;
   font-weight: bold;
   font-size: 35px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  justify-content: center; }
 
 .formulario {
   display: grid;
@@ -154,3 +159,28 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%; }
+
+.title__promos {
+  display: grid;
+  font-weight: bold;
+  margin-bottom: 25px;
+  width: 100%;
+  grid-area: encabezado;
+  justify-content: center; }
+
+.card__promos {
+  background-color: darkgray;
+  padding: 25px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px -12px black;
+  margin: 15px 20px; }
+  .card__promos-title {
+    font-size: 25px;
+    margin-bottom: 20px; }
+
+.my__cards-promos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-area: conenido;
+  margin-top: 20px; }
