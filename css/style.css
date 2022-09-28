@@ -76,7 +76,9 @@ footer {
       .contenido__inicio img {
         width: 100%; }
   .my-cards {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+    .my-cards-promos {
+      grid-template-rows: 1fr; } }
 
 .contenido {
   display: grid;

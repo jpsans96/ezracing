@@ -23,5 +23,8 @@
   }
   .my-cards{
     grid-template-columns: 1fr;
+    &-promos{
+      grid-template-rows: 1fr;
+    }
   }
 }

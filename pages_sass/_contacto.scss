@@ -13,9 +13,9 @@
 .formulario{
   display: grid;
   justify-content: center;
-  & form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    form{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
   }
 }
